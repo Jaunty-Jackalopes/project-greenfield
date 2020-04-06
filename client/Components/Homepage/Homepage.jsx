@@ -1,9 +1,8 @@
 import React from "react";
 import Reviews from "../Reviews/Reviews.jsx";
 import OverView from "../Overview/Overview.jsx";
-import QuestionAnswer from "../QuestionAnswer/QuestionAnswer.jsx";
-import "./Homepage.css";
 import QuestionsAnswersContainer from "../../containers/QuestionsAnswersContainer.jsx";
+import "./Homepage.css";
 
 const Homepage = () => {
   return (
@@ -20,10 +19,8 @@ const Homepage = () => {
         }}
       >
         <p>YOU GOT THIS FASHION</p>
-        <span className="text-right">________________________</span>
       </header>
       <OverView />
-      {/* <QuestionAnswer /> */}
       <QuestionsAnswersContainer />
       <Reviews />
     </div>

@@ -1,6 +1,5 @@
 import { connect } from "react-redux";
 import StyleSelector from "../Components/Overview/ProductDetails/StyleSelector";
-import getProductData from "../actions/Overview/getProductData";
 
 let mapStatetoProps = store => {
   return {
@@ -8,15 +7,8 @@ let mapStatetoProps = store => {
   };
 };
 
-var mapDispatchToProps = dispatch => ({
-  handleStyleClick: image => {
-    dispatch(getProductData(image));
-  }
-});
-
 const StyleSelectorContainer = connect(
   mapStatetoProps,
-  mapDispatchToProps,
   null
 )(StyleSelector);
 

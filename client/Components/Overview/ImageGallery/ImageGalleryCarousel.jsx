@@ -51,11 +51,13 @@ const ImageCarousel = ({ productData, handleClick }) => {
   return (
     <div className="slider">
       <Slider {...settings}>
-        {productData.map((img, index) => (
-          <div className="setImageHeight">
-            <img key={index} src={img.url} onClick={handleClick} />
-          </div>
-        ))}
+        {productData.map((img, index) => {
+          return (
+            <div className="setImageHeight" key={index}>
+              <img src={img.url} onClick={handleClick} />
+            </div>
+          );
+        })}
       </Slider>
     </div>
   );

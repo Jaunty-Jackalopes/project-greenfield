@@ -46,7 +46,6 @@ const ImageGallery = ({
               {productData[styleId].photos[id].url === null ? null : (
                 <ImageGalleryCarousel
                   productData={productData[styleId].photos}
-                  id={id}
                 />
               )}
             </div>

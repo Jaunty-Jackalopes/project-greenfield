@@ -2,7 +2,7 @@ const axios = require("axios");
 
 const getInitialReviewsMeta = product_id => {
   return axios
-    .get(`http://18.223.1.30/reviews/${product_id}/meta`)
+    .get(`http://3.134.102.30/reviews/${product_id}/meta`)
     .then(({ data }) => {
       return data;
     })
@@ -13,7 +13,7 @@ const getInitialReviewsMeta = product_id => {
 
 const getInitialReviewsList = product_id => {
   return axios
-    .get(`http://18.223.1.30/reviews/${product_id}/list`, {
+    .get(`http://3.134.102.30/reviews/${product_id}/list`, {
       params: { count: 100000, sort: "relevant" }
     })
     .then(({ data }) => {
