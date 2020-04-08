@@ -1,20 +1,22 @@
 import React from "react";
 import StyleSelectorContainer from "../../../containers/StyleSelectorContainer.jsx";
 import StarReviewsContainer from "../../../containers/StarReviewsContainer";
-import { makeStyles } from "@material-ui/core/styles";
-import InputLabel from "@material-ui/core/InputLabel";
 import ProductInfo from "./ProductInfo.jsx";
 import ProductForm from "./ProductForm.jsx";
 import ProductSlogan from "./ProductSlogan.jsx";
+import JumpScroll from "./JumpScroll.jsx";
+import "./productDetails.css";
+
+// Material UI
+import { makeStyles } from "@material-ui/core/styles";
 import FormControl from "@material-ui/core/FormControl";
+import Container from "@material-ui/core/Container";
 import Select from "@material-ui/core/Select";
+
+//Logo SVGs
 import facebook from "../logos/facebook.svg";
 import pinterest from "../logos/pinterest.svg";
 import twitter from "../logos/twitter.svg";
-import Container from "@material-ui/core/Container";
-import Modal from "./Modal.jsx";
-import "./productDetails.css";
-import JumpScroll from "./JumpScroll.jsx";
 
 const useStyles = makeStyles({
   root: {

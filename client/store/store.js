@@ -28,7 +28,6 @@ const store = createStore(
 );
 
 //getting the product id from window
-
 let productId = window.location.href.split("/").pop();
 
 //intialize data

@@ -1,11 +1,12 @@
 import React, { PureComponent } from "react";
-//import ImageGallery from "./ImageGallery/ImageGallery.jsx";
-import ProductDetails from "./ProductDetails/ProductDetails.jsx";
-import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
 import ImageGalleryContainer from "../../containers/ImageGalleryContainer.jsx";
 import ProductDetailsContainer from "../../containers/ProductDetailsContainer.jsx";
+
+//Styling & CSS
+import Grid from "@material-ui/core/Grid";
+import Paper from "@material-ui/core/Paper";
 import "./Overview.css";
+
 class Overview extends PureComponent {
   constructor(props) {
     super(props);
