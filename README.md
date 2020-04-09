@@ -8,7 +8,7 @@ This is a template for an E-commerce platform that dynamically rendering data fr
 
 > Interactive Carousel implemented with React-Slick
 
-![Image Carousel](gifs/ImageCarousel.gif)
+![Image Carousel](gifs/gif1.gif)
 
 The user has the option of moving one image at a time with arrow selectors or by moving further ahead with the bullet selectors, or they can click one of the thumbnail images on the left to select them individually.
 
