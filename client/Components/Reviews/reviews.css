@@ -1,0 +1,146 @@
+.review-summary {
+  font-weight: bold;
+}
+.review-name-and-date {
+  float: right;
+}
+.review-meta {
+  padding-left: 40px;
+}
+.review-overview {
+  display: inline-block;
+}
+.review-avg-rating-number {
+  display: inline-block;
+  font-size: 60px;
+}
+.review-avg-rating-star {
+  display: inline-block;
+  margin: auto;
+}
+.reviews {
+  margin: 50px;
+}
+
+.review-username {
+  font-size: 18px;
+}
+.review-entry {
+  border-bottom: solid 1px lightgrey;
+}
+.review-title {
+  font-size: 20px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+.progress-bar {
+  height: 20px;
+}
+.review-recommended {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.remove-rating-filter {
+  text-decoration: underline;
+  color: grey;
+  cursor: pointer;
+}
+.review-filter {
+  margin-bottom: 15px;
+  font-style: italic;
+}
+.review-helpful-yes {
+  text-decoration: underline;
+  color: grey;
+  cursor: pointer;
+}
+.review-helpful-count {
+  color: grey;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.review-report {
+  text-decoration: underline;
+  color: grey;
+  cursor: pointer;
+}
+.review-rating-factor {
+  width: 75%;
+  margin-top: 20px;
+}
+.rating-star {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.rating-star:hover {
+  color: red;
+}
+.rating-amount:hover {
+  color: red;
+}
+.review-entry-recommend {
+  font-style: italic;
+  font-size: 14px;
+}
+.review-entry-photo {
+  width: 20%;
+}
+.review-reviewList {
+  height: 500px;
+  overflow: auto;
+}
+.review-choose-rating {
+  width: 200;
+  display: flex;
+  align-items: center;
+}
+.review-star-meaning {
+  margin-left: 10px;
+  font-size: 15px;
+}
+.review-text {
+  font-size: 12px;
+}
+.review-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+.review-radio-check {
+  font-size: 14px;
+}
+.review-form {
+  width: 80%;
+}
+.review-modal-body {
+  width: 700px;
+}
+.review-charac {
+  display: flex;
+}
+.review-rating-factor {
+  line-height: 1em;
+}
+.sortBy-select {
+  border: none;
+  background: transparent;
+  text-decoration: underline;
+}
+
+.review-entry-date {
+  font-size: 14px;
+  color: grey;
+}
+.review-body {
+  font-size: 14px;
+}
+.review-radio-check {
+  display: block;
+  margin: auto;
+}
+.charac-form {
+  align-items: baseline;
+  text-align: center;
+  margin-bottom: 2px;
+}

@@ -1,0 +1,85 @@
+.hide {
+  height: 0px;
+  width: 0px;
+}
+
+.fullScreen {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+}
+
+.Modal {
+  background: black;
+}
+
+#CarouselImg {
+  object-fit: cover;
+}
+
+.slider {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  /* This aligns items to the end line on main-axis */
+}
+
+.slider img {
+  object-fit: cover;
+}
+
+.expand {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+}
+
+.expand img {
+  height: 100%;
+  width: 100%;
+}
+
+.shrink {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  object-fit: contain;
+}
+
+.shrink img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.imageModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main2 {
+  position: absolute;
+  background: black;
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.setImageHeight {
+  height: 600px;
+}

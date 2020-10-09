@@ -1,0 +1,15 @@
+.header-ul {
+  display: inline-block;
+}
+
+.header-li {
+  display: inline-block;
+  padding: 0 15px;
+}
+/* DRY CLASS NAMES */
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}

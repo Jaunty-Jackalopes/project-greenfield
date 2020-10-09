@@ -1,0 +1,78 @@
+.socialMedia {
+  display: flex;
+  height: 1%;
+  width: 1%;
+  flex-wrap: nowrap;
+}
+
+.socialMedia img {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.Sale {
+  color: red;
+}
+
+.PriceStyling {
+  text-decoration: line-through;
+}
+
+.check {
+  height: 25px;
+  width: 25px;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+}
+
+.avatar-holder {
+  height: 80px;
+  width: 80px;
+}
+
+.readReviews {
+  display: inline-block;
+  position: relative;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.style-bubbles-container {
+  display: flex;
+  width: 350px;
+  flex-wrap: wrap;
+  /* grid-row: 1; */
+}
+
+.MuiAvatar-img {
+  margin: 10px !important;
+}
+
+.Pname {
+  font-weight: bold;
+}
+
+.Category {
+  font-weight: bold;
+}
+
+.slogan {
+  font-weight: bold;
+}
+
+.Style {
+  font-weight: bold;
+}
+
+.Xbutton {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+.noImages {
+  font-weight: bolder;
+  color: red;
+}
